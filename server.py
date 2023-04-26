@@ -1,7 +1,6 @@
 import joblib
 import os, sys, requests, json
 from multiprocessing import Process
-from __future__ import print_function
 from flask import Flask, request, abort, logging
 
 app = Flask(__name__)
